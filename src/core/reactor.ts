@@ -1779,7 +1779,7 @@ export interface Runtime {
   delete: (r: Reactor) => void;
   isRunning: () => boolean;
 }
-interface UtilityFunctions {
+export interface UtilityFunctions {
   requestStop: () => void;
   reportError: (message?: string) => void;
   requestErrorStop: (message?: string) => void;
